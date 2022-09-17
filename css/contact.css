@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:wght@300&display=swap');
+*{
+  margin:0;
+  padding: 0;
+}
+.sidebar{
+  position:absolute;
+  background-color: #ECC5FB;
+    transition: transform 0.3s ease-in;
+  font-family: 'Quicksand', sans-serif;
+}
+.sidebar nav{
+      padding-left: 2px;
+      height: 100vh;
+      margin-top: 15vh;
+
+}
+.sidebar nav li{
+  list-style: none;
+  padding: 33px;
+  font-size: 30px;
+
+}
+.sidebar nav li a
+{
+  text-decoration: none;
+  color: white;
+}
+.main{
+
+  width: 85vw;
+}
+.container{
+  background-color:#F9F9F9 ;
+  display: flex;
+}
+.infocontainer{
+
+  height: 100vh;
+  width: 100vw;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactform{
+  padding: 0 34px;
+  padding-top: 120px;
+  font-family: 'Quicksand', sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+}
+.contactform form div{
+  padding:10px 0 ;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input{
+  width: 26vw;
+  border-radius:5px;
+  margin:6px 0 0;
+  padding:3px;
+}
+.buttons{
+  width:9vw;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 27px;
+  color: white;
+  background-color: #b149d9b3;
+  font-weight: bold;
+  border-width: thin;
+  cursor: pointer;
+}
+.buttons:hover{
+  background-color: white;
+  color: #b149d9b3;
+}
+
+
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin:3px 0;
+}
+#emailHelp{
+  font-size: 11px;
+  padding: 3px 0 0 0;
+  color: midnightblue;
+  margin:0 5px;
+}
